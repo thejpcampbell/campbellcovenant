@@ -29,6 +29,8 @@ body {
   font-family: 'Lora', Georgia, serif;
   min-height: 100%;
   overflow-x: hidden;
+  /* no rubber-band flash when launched as a home-screen app */
+  overscroll-behavior-y: none;
 }
 
 #root {
